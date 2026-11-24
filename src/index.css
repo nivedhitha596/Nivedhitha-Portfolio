@@ -1,0 +1,12 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scroll smooth */
+html { scroll-behavior: smooth; }
+
+/* Prevent horizontal overflow */
+body { overflow-x: hidden; }
+/* Ensure sections are not hidden behind fixed navbar */
+section { scroll-margin-top: 4rem; }
